@@ -1,0 +1,4 @@
+Queste cartelle contengono il tumore estratto manualmente dalle immagini e convertito in una mappa binaria, in tal modo mediando più volte l'immagine segmentata a mano si ottiene 
+una buona stima dell'imagine reale e binaria del tumore che è usata per i confronti con gli algritmi da noi proposti. In tal modo si confronta l'immagine segmentata con i vari algoritmi 
+con questa immagine che viene detta Gold Standard per capire quanto tumore effettivamente l'algoritmo ha riconosciuto.
+Per ogni  immagine che usiamo è necessario avere almeno 5 ROI in binario del tumore segmentato a mano cosi che per ogni immagine si possa valutare un Gold Standard.
